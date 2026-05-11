@@ -1,0 +1,11 @@
+**Required columns**
+transaction_id
+customer_id -- Must be numeric
+transaction_amount -- Must be numeric
+transaction_time -- must be datetime
+location
+device_id
+
+**optional**
+ip_adress
+foreign_transaction flags

@@ -1,0 +1,21 @@
+0 Is Legit transaction
+1 Is Fraudulent transaction
+** It should be noted that we are trying to detect fraud so every result relating to 0 (Legit transactions would be ignored). Just because if the model acts right in catching fraud cases the measure for legit would be as well accurate.
+
+- True Negatives: Shows how many transactions the model finds legit.
+
+- True Positives: Shows how many transactions the model finds fraudulent.
+
+- False Negatives: Shows how many fraudulent cases the model did not flag.
+
+- False Positives: Shows how many legit transactions where flagged aas fraud.
+
+- Precision: Shows how precise the model is scaling is from 0 to 1.00 
+
+- Recall: Shows how good the model is at catching fraud cases
+
+- F1-score: This is the balance between precision and recall
+
+- Support: This is the number of actual occurences of both fraud and non fraud cases in the model.
+
+- Accuracy: Describes how many predictions the model got overall. For a fraud detection model thisis not useful because it will always get a high accuracy for non fraud cases.

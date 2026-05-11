@@ -1,0 +1,34 @@
+#Ignore Kaggle datasets
+Kaggle Fraud Data for Testing/CSV/
+
+# Ignore csv exports generally
+*.csv
+
+# Keep live production csv
+!Near Live Simulation of Fraud Detection/CSV (DB updates)/scored_transactions.csv
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+
+# Logs
+*.log
+
+.streamlit/secrets.toml
