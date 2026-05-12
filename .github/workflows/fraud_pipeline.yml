@@ -36,7 +36,7 @@ jobs:
           echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
 
       - name: Run Master Pipeline
-        working-directory: Scripts
+        working-directory: "Near Live Simulation of Fraud Detection/Scripts"
         run: python master_pipeline.py
 
       - name: Commit Updated CSV
